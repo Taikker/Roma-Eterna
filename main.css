@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    margin: 0;
+    background-color: #891e35;
+}
+/*----------HEADER----------*/
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contenedor-nav {
+    background-image: url(coliseo-romano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.contenedor-img-nav {
+    padding: 15px;
+}
+.img-nav {
+    width: 200px;
+}
+.contenedor-nav-links {
+    background-color: black;
+    padding: 5px;
+}
+.links {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    font-family: cinzel;
+    font-size: 20px;
+}
+.section {
+    text-align: center;
+    padding: 200px;
+    font-size: 45px;
+    font-family: cinzel;
+    width: 50%;
+    margin: 0 auto;
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://3.bp.blogspot.com/-tjjyNglT9-k/XLje8PonVzI/AAAAAAAALNU/9yXvXatU1PobWGWfExB863-kaaoqvDgMwCLcBGAs/s1600/El%2BImperio%2BRomano.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2 {
+    /* The image used */
+    background-image: url("http://anatomiadelahistoria.com/wp-content/uploads/2014/06/Imperioromano4.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    background-color: #4d0000;
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+/*----------FOOTER----------*/
+.contenedor-footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #4b0312;
+}
+.footer{
+    padding: 10px;
+}
+.footer-one{
+    display: flex;
+    justify-content: center;
+}
+.footer-two{
+    display: inline;
+}
+.footer-three{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+.links-footer{
+    display: flex;
+    justify-content: center;
+    font-family: cinzel;
+    font-size: 15px;
+}

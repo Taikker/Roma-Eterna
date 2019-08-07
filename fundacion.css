@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    margin: 0;
+    background-color: #891e35;
+}
+/*----------HEADER----------*/
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contenedor-nav {
+    background-image: url(coliseo-romano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.contenedor-img-nav {
+    padding: 15px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.img-nav {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+.contenedor-nav-links {
+    background-color: black;
+    padding: 5px;
+}
+.links {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    font-family: cinzel;
+    font-size: 20px;
+}
+.article {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+.titulo {
+    font-family: cinzel;
+    font-size: 50px;
+    text-align: center;
+}
+.subtitulo {
+    font-family: Montserrat;
+    font-size: 25px;
+    text-align: start;
+}
+.parrafo {
+    font-family: Montserrat;
+    color: dimgray;
+}
+.image-1 {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-2 {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.epigrafe {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+/*----------FOOTER----------*/
+.contenedor-footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #4b0312;
+}
+.footer{
+    padding: 10px;
+}
+.footer-one{
+    display: flex;
+    justify-content: center;
+}
+.footer-two{
+    display: inline;
+}
+.footer-three{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+.links-footer{
+    display: flex;
+    justify-content: center;
+    font-family: cinzel;
+    font-size: 15px;
+}
+hr {
+    clear: both;
+    visibility: hidden;
+}
