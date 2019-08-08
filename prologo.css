@@ -22,20 +22,16 @@ ul {
 }
 .contenedor-img-nav {
     padding: 15px;
-    width: 1200px;
-    margin: 0 auto;
 }
 .img-nav {
     width: 200px;
-    display: flex;
-    justify-content: flex-start;
 }
 .contenedor-nav-links {
     background-color: black;
     padding: 5px;
 }
 .links {
-    width: 1200px;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
@@ -45,7 +41,7 @@ ul {
 /*----------ARTICLE----------*/
 .article {
     background-color: white;
-    width: 1000px;
+    width: 50%;
     margin: 0 auto;
     padding-top: 20px;
     padding-right: 100px;
@@ -74,8 +70,6 @@ ul {
     cursor: pointer;
     font-size: 20px;
     font-family: cinzel;
-    position: absolute;
-    margin: 0 auto;
 }
 
 /*----------FOOTER----------*/
