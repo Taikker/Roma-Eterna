@@ -42,6 +42,12 @@ ul {
     font-family: cinzel;
     font-size: 20px;
 }
+.hover-nav :hover{
+    background-color: white;
+    color: black;
+    font-family: cinzel;
+    font-size: 20px;
+} 
 /*----------SECTION----------*/
 .titulo{
     font-size: 50px;
@@ -69,13 +75,7 @@ ul {
 	padding: 20px 0;
 	border-radius: 4px;
 }
-.form-1{
-    display: flex;
-    flex-direction: row;    
-}
-.form-2{
-    display: flex;
-    flex-direction: row;      
+.form-1{  
 }
 .section{
     background-color: white;

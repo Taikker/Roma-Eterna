@@ -35,13 +35,19 @@ ul {
     padding: 5px;
 }
 .links {
-    width: 64%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     font-family: cinzel;
     font-size: 20px;
 }
+.hover-nav :hover{
+    background-color: white;
+    color: black;
+    font-family: cinzel;
+    font-size: 20px;
+} 
 /*----------ARTICLE----------*/
 .article {
     background-color: white;
